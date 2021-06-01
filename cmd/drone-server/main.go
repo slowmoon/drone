@@ -39,6 +39,7 @@ import (
 )
 
 func main() {
+	
 	var envfile string
 	flag.StringVar(&envfile, "env-file", ".env", "Read in a file of environment variables")
 	flag.Parse()
